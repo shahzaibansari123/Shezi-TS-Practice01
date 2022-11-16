@@ -10,10 +10,12 @@
 //   console.log(add(+input1.value, +input2.value));
 // });
 
-
 // primitive types
 
 // boolean true/false
 // string "Abc"
 // number 12, 5.5, -23
-// etc 
+// etc
+
+let person: string;
+person = "Shahzaib";

@@ -24,5 +24,10 @@
 
 
 // simple
-const names=["Shahzaib", "Shareh", "Khubaib"]
+// const names=["Shahzaib", "Shareh", "Khubaib"]
+
+// ts 
+let names: string[] =[]
+
+names.push("Shahzaib")
 

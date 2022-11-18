@@ -17,5 +17,12 @@
 // number 12, 5.5, -23
 // etc
 
-let person: string;
-person = "Shahzaib";
+
+
+// let person: string;
+// person = "Shahzaib";
+
+
+simple
+const names=["Shahzaib", "Shareh", "Khubaib"]
+

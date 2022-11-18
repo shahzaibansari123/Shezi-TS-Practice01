@@ -23,6 +23,6 @@
 // person = "Shahzaib";
 
 
-simple
+// simple
 const names=["Shahzaib", "Shareh", "Khubaib"]
 

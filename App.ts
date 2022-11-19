@@ -27,7 +27,12 @@
 // const names=["Shahzaib", "Shareh", "Khubaib"]
 
 // ts 
-let names: string[] =[]
+// let names: string[] =[]
+// names.push("Shahzaib")
 
-names.push("Shahzaib")
+const person={
+    name: "Shahzaib",
+    age: "21",
+    hobbies: ["sports"],
+}
 

@@ -36,3 +36,4 @@ const person={
     hobbies: ["sports"],
 }
 
+person.email="shahzaib@abc.com"

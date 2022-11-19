@@ -31,6 +31,9 @@
 // names.push("Shahzaib")
 
 const person={
+    name= string
+    age:
+}={
     name: "Shahzaib",
     age: "21",
     hobbies: ["sports"],

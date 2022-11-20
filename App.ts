@@ -30,9 +30,10 @@
 // let names: string[] =[]
 // names.push("Shahzaib")
 
-const person={
-    name= string
-    age:
+const person:{
+    name: string;
+    age: string;
+    hobbies: string[];
 }={
     name: "Shahzaib",
     age: "21",

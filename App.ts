@@ -34,6 +34,7 @@ const person:{
     name: string;
     age: string;
     hobbies: string[];
+    email?: string;
 }={
     name: "Shahzaib",
     age: "21",

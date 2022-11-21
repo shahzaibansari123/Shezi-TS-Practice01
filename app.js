@@ -7,3 +7,4 @@ var add = function (n1, n2) {
 button.addEventListener("click", function () {
     console.log(add(+input1.value, +input2.value));
 });
+

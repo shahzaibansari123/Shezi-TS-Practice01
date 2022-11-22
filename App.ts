@@ -61,6 +61,8 @@ type Customer = {
   email: string;
 };
 
+let customersList : Customer[] = [];
+
 const person1: Customer = {
   name: "Shahzaib",
   age: "21",

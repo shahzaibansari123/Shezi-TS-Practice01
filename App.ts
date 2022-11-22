@@ -12,7 +12,6 @@
 
 // ---------------------------------------
 
-
 // primitive types
 
 // boolean true/false
@@ -22,7 +21,6 @@
 
 // -------------------------------------------
 
-
 // let person: string;
 // person = "Shahzaib";
 
@@ -31,10 +29,9 @@
 // simple
 // const names=["Shahzaib", "Shareh", "Khubaib"]
 
-// ts 
+// ts
 // let names: string[] =[]
 // names.push("Shahzaib")
-
 
 // -----------------------------------------------
 
@@ -54,18 +51,19 @@
 
 // person.email="shahzaib@abc.com"
 
-
-
 // -----------------------------------------------------
 
+type Customer = {
+  name: string;
+  age: string;
+  hobbies: string[];
+  // email?: string;
+  email: string;
+};
 
-
-type Customer =  {
-        name: string;
-        age: string;
-        hobbies: string[];
-        // email?: string;
-        email: string;
-    }
-
-    
+const person1: Customer = {
+  name: "Shahzaib",
+  age: "21",
+  hobbies: ["sports"],
+  email: "",
+};

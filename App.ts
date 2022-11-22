@@ -69,3 +69,5 @@ const person1: Customer = {
   hobbies: ["sports"],
   email: "",
 };
+
+customersList.push(person1);

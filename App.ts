@@ -84,4 +84,6 @@
 // -----------------------------------------------------
 
 
-const statuses =[404, "not found"]
+// const statuses =[404, "not found"]
+
+const role =[0, "admin"]

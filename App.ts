@@ -53,30 +53,35 @@
 
 // -----------------------------------------------------
 
-type Customer = {
-  name: string;
-  age: string;
-  hobbies: string[];
-  // email?: string;
-  email: string;
-};
+// type Customer = {
+//   name: string;
+//   age: string;
+//   hobbies: string[];
+//   // email?: string;
+//   email: string;
+// };
 
-let customersList : Customer[] = [];
+// let customersList : Customer[] = [];
 
-const person1: Customer = {
-  name: "Shahzaib",
-  age: "21",
-  hobbies: ["sports"],
-  email: "",
-};
+// const person1: Customer = {
+//   name: "Shahzaib",
+//   age: "21",
+//   hobbies: ["sports"],
+//   email: "",
+// };
 
-customersList.push(person1);
+// customersList.push(person1);
 
 
-customersList.push({
-  name: "rushal",
-  age: 21,
-  hobbies: ["movies"],
-  email: "",
+// customersList.push({
+//   name: "rushal",
+//   age: 21,
+//   hobbies: ["movies"],
+//   email: "",
 
-})
+// })
+
+// -----------------------------------------------------
+
+
+const statuses =[404, "not found"]

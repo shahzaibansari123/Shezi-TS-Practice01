@@ -71,3 +71,12 @@ const person1: Customer = {
 };
 
 customersList.push(person1);
+
+
+customersList.push({
+  name: "rushal",
+  age: 21,
+  hobbies: ["movies"],
+  email: "",
+
+})

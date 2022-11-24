@@ -86,4 +86,6 @@
 
 // const statuses =[404, "not found"]
 
-const role =[0, "admin"]
+const role : [number, string]=[0, "admin"]
+
+role[1]="customer"

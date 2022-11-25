@@ -92,3 +92,7 @@ role[1]="customer"
 
 //problem in typescript as it allow push on fixed length tuple or array
 // role.push("shezi")  
+
+//--------------------------------------------------------
+
+let data: string | number

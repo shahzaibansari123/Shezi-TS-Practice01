@@ -96,3 +96,7 @@ role[1]="customer"
 //--------------------------------------------------------
 
 let data: string | number
+data= "Shahzaib"
+data= "07"
+
+

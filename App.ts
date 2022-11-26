@@ -86,17 +86,30 @@
 
 // const statuses =[404, "not found"]
 
-const role : [number, string]=[0, "admin"]
+// const role : [number, string]=[0, "admin"]
 
-role[1]="customer"
+// role[1]="customer"
 
 //problem in typescript as it allow push on fixed length tuple or array
 // role.push("shezi")  
 
 //--------------------------------------------------------
 
-let data: string | number
-data= "Shahzaib"
-data= "07"
+// let data: string | number
+// data= "Shahzaib"
+// data= "07"
 
 
+//--------------------------------------------------------
+
+// literal type 
+
+function myFunc(num1: number, num2: number, opr: "+" | "-"){
+    if(opr === "+"){
+        return num1 + num2;
+    }else if(opr === "-"){
+            return num1 - num2;
+    }
+}
+
+console.log(myFunc(2,2,"+"))

@@ -104,12 +104,24 @@
 
 // literal type 
 
-function myFunc(num1: number, num2: number, opr: "+" | "-"){
-    if(opr === "+"){
-        return num1 + num2;
-    }else if(opr === "-"){
-            return num1 - num2;
-    }
-}
+// function myFunc(num1: number, num2: number, opr: "+" | "-"){
+//     if(opr === "+"){
+//         return num1 + num2;
+//     }else if(opr === "-"){
+//             return num1 - num2;
+//     }
+// }
 
-console.log(myFunc(2,2,"+"))
+// console.log(myFunc(2,2,"+"))
+
+//--------------------------------------------------------
+
+
+// storing function in variable 
+
+
+let addFunc: (n1: number, n2: number)=> number;
+
+const add = (n1: number, n2 : number):number =>{
+  return n1 + n2;
+};

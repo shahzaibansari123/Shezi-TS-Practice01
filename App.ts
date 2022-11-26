@@ -72,7 +72,6 @@
 
 // customersList.push(person1);
 
-
 // customersList.push({
 //   name: "rushal",
 //   age: 21,
@@ -83,7 +82,6 @@
 
 // -----------------------------------------------------
 
-
 // const statuses =[404, "not found"]
 
 // const role : [number, string]=[0, "admin"]
@@ -91,7 +89,7 @@
 // role[1]="customer"
 
 //problem in typescript as it allow push on fixed length tuple or array
-// role.push("shezi")  
+// role.push("shezi")
 
 //--------------------------------------------------------
 
@@ -99,10 +97,9 @@
 // data= "Shahzaib"
 // data= "07"
 
-
 //--------------------------------------------------------
 
-// literal type 
+// literal type
 
 // function myFunc(num1: number, num2: number, opr: "+" | "-"){
 //     if(opr === "+"){
@@ -116,12 +113,16 @@
 
 //--------------------------------------------------------
 
+// storing function in variable
 
-// storing function in variable 
-
-
-let addFunc: (n1: number, n2: number)=> number;
-
-const add = (n1: number, n2 : number):number =>{
-  return n1 + n2;
+let addFunc: (x: number, y: number) => number;
+const add = (n1: number, n2: number): number => {
+    return n1 + n2;
 };
+
+// const add = (n1: number, n2: number, cb: (x: boolean) => void): number => {
+//   cb(true)
+//     return n1 + n2;
+// };
+
+addFunc = add;

@@ -120,6 +120,8 @@ const add = (n1: number, n2: number): number => {
     return n1 + n2;
 };
 
+
+// callback Example ts 
 // const add = (n1: number, n2: number, cb: (x: boolean) => void): number => {
 //   cb(true)
 //     return n1 + n2;
